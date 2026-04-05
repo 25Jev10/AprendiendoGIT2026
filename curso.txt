@@ -1,3 +1,8 @@
+
+realizo una modificacio para comprobar el estado (status) en git
+
+
+
 GIT software de control de versiones:
 
 controla los cambios realizado sobre un archivo o conjunto de los mismos
