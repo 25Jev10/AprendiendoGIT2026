@@ -1,6 +1,8 @@
 
 realizo una modificacio para comprobar el estado (status) en git
 
+reliza los comentarios en forma razonable
+
 
 
 GIT software de control de versiones:
