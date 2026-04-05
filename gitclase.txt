@@ -1,0 +1,31 @@
+﻿Si quiero creo una carpeta para trabajar, creamos una carpeta donde vamos a trabajar
+
+
+Creamos un usuario desde la terminal
+
+* git config --global user.name "usuarioGit"
+
+creamos un correo electronico
+
+* git config --global user.email "correoelectronico@dominio.com"
+
+donde vemos los datos, desde la terminal buscamos el archivo oculto
+
+* .gitconfig
+
+en nuestro caso ls -a para ver los achivo ocultos...
+
+Como indicamos que vamos a trabajar o inicializar nuestro proyecto usamos 
+
+* git init
+
+sale por pantalla 
+
+ayuda: Usando 'master' como el nombre de la rama inicial. Este nombre de rama predeterminado
+ayuda: está sujeto a cambios. Para configurar el nombre de la rama inicial para usar en todos
+ayuda: de sus nuevos repositorios, reprimiendo esta advertencia, llama a:
+ayuda: 
+ayuda: git config --global init.defaultBranch 
+
+#master es la rama principal donde por ahora vamos a guardar todo lo que vayamos a hacer
+

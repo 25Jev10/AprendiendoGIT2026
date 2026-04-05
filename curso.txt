@@ -1,0 +1,96 @@
+GIT software de control de versiones:
+
+controla los cambios realizado sobre un archivo o conjunto de los mismos
+a lo largo del tiempo.
+-gestiona distintas versiones de un mismo archivo
+
+Repositorio:
+lugar donde podemos guardar cosas
+tipos:
+locales: lo que se crean en la pc, no nesesariamente son compartidos
+Remotos: no se encuentran en la pc, se encuentra en un servidor externo
+
+1). Pasos para crear el primer repositorio:
+.Descargamos git o instalamos en linux
+.una vez instalada se habre la consola
+
+-con cd ubicamos la carpeta de trabajo
+-inicializar: git init
+-git init
+.agrega un subdirectorio oculto en ese subdirectorio guarda toda la informacion necesaria para que 
+git comiense arastrear los cambios, historial configuraciones, ramas, etc.
+.desde ese momento se puede comenzar a usar los comandos git add, git commit, etc
+para registrar y controlar las versiones de tus archivos
+
+.en pocas palabras con despues de ecribir  git init, la carpta se convierte en un repositorio de git
+listo para llevar un historial de cambios
+
+2). Abrir la terminal y escribo git init y por pantalla aparece: 
+Salida: "Initialized empty Git repository in (ubicacion)"
+o
+si ya estaba inicializada(ya fue creada) tiene el mensaje
+"Reinicializado el repositorio Git existente en (ubicacion)"
+
+========================================================================
+
+CREANDO UNA CUENTA EN EL REPOSITORIO REMOTO DE GIT
+
+1.creamos una cuenta en github
+https://github.com
+que es github: es una plataforma en la nube donde los programadores guardan,
+comparten y trabajan juntos en preoyectos de codigo. Funciona como un repositorio central
+que permite colaborar, revisar cambios y mejorar el software de manera organizada y segura
+
+Concetos Basicos: 
+.GITHUB portal para el codigo, sitio web que aloja proyectos de programacion
+.BASADO EN GIT: utilizagot, sistem de control de versiones que registra cada cambio del codigo
+.Colaboracion: permite que varios desarrolladores trabajen en un mismo proyecto
+.Repositorios: Los proyectos que se guardan en "repositorios", que puden se publicos
+(abierto para todos) o privados (Solo para el equipo)
+
+FUNCIONES PRINCIPALES:
+.guardar el codigo
+.control de versiones 
+.revision de codigo
+.colaboracion global
+.opciones de privacidad
+
+TRABAJANDO DESDE https://git.com
+
+1.creamos una cuenta desde sign up
+a.introducimos nuestro email
+b.colocar la contrasena
+
+=========================================================================
+una vez con la cuenta creada, en al pantalla seleccionamos "create a new repository"
+
+.owner *: nos da nuestro ombre de usuario
+.Repository name *: le damos un nombre a nuestro repositorio
+.Description (optional): podemos colocar o no lo que vamos a hacer en el rspositorio
+.Private: "cualquiera en internet puede ver este repositorio"
+.Private: :"tu puedes elegir quin pede ver y comprometerse en el rpositorio"
+ una vez configurado elegimos la opcion "create repository"
+
+terminado de configurar ingresamos a la pantalla de 
+"Quick setup - ...." 
+y nos dara una url en la cual alamacenaremos nuestros archivos
+podemos seleccionar entre https o ssh
+=========================================================================================
+
+TRABAJANDO DESDE LA TERMINAL(SERVIDOR LOCAL)
+con los comandos
+.git config user.name "colocamos el nombre de ususario" creado en la nuve de https://github.com
+.git config user.email "colocamos nuestor correo electronico" creado en la nueve de https://github.com
+
+con estos datos quien es el usuario y el correo al cual pertenece
+
+============================================================================================================
+
+COMO NOS COMUNICAMOS (SERVIDOR REMOTO) de https://github.com
+
+usando el comando
+
+.git remote add origin "https://githuh.com/nombre_de_ususaio/nombre_de_repositorio.git"
+
+origin: es "por defecto" el nombre de nuestro repositorio remoto
+-la direccion https va en comillas dobles.
